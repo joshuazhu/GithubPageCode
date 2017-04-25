@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 5. Prefer Query Syntax to loops
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. Use the query syntax creates more readable code and enables reuse of different building blocks.

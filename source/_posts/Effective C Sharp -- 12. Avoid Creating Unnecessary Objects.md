@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 12. Avoid Creating Unnecessary Objects
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. All reference types, even local variables, are allocated on the __heap__.

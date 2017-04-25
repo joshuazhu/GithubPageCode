@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 1. Use properties instead of Accessible Data Member
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. Public data members are __bad practice__.

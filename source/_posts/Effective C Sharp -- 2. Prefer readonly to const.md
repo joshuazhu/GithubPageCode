@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 2. Prefer readonly to const
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. C# has two different version of constants: __compile-time__ constants and __runtime__ constants.

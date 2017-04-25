@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 8. Prefer Member Initializers to Assignment Statements
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. Declare member variable instead of in the body of every constructor, utilize the initializer syntax for both static and instance variables.

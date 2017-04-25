@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 9. Use Proper Initialization for Static Class Members
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. A static constructor executes before any other methods to initialize static member variables.

@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 4. Use Conditional Attributes Instead of IF
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. If use a __ #if and #endif __ pragmas in a function for debug model, in release model will have an empty function, which will cause unnecessary cost. 

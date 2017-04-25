@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 3. Prefer the is or as to Casts
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. Correct choice for type casting is to user the __as__ operator as it is __safer__ and more __efficient__ at runtime (they __succeed only__ if the runtime type matches the sought type, __never construct a new object__).

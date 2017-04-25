@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 10. Minimize Duplicate Initialization Logic
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. Find that multiple constructors contain the same logic, factor that logic into a common constructor instead.

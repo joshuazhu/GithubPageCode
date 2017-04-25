@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 11. Utilize using and try/finally for Resource Cleanup
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 1. Anytime you use types that have a __Dispose()__ method, it’s your responsibility to __release those resources by calling Dispose()__. __Best way__ to ensure that __Dispose()__ always gets called is to utilize the __using__ statement or a __try/finally block__.

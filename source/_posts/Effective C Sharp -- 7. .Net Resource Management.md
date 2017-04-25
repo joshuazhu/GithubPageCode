@@ -1,7 +1,7 @@
 ---
  title: Effective C# -- 7. .Net Resource Management
  date: {date}
- categories: C Sharp
+ categories: .Net
 ---
 
 Two mechanisms helps developers control the lifetime of unmanaged resources: __finalizers__ and the __IDisposable__ interface.
