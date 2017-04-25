@@ -140,13 +140,14 @@ font:
 social:
   LinkedIn: https://www.linkedin.com/in/hua-josh-zhu-a2b3366a/
   FaceBook: https://www.facebook.com/profile.php?id=100004617458268
+  Github: https://github.com/joshuazhu
 social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   Linkedin: linkedin
   FaceBook: facebook  
-
+  Github: github
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
