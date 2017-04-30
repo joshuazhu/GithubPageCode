@@ -4,7 +4,7 @@
  categories: Design Patterns
 ---
 
-## Definition                                                                                                                                                                                                                                                                                                             
+## Definition
 Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
 ## Components
@@ -15,6 +15,7 @@ Defines a one-to-many dependency between objects so that when one object changes
 3. __ObserverBase__: base class of observers, contains methods which is called when a subject's state changes.
 4. __ConcreteObserver__: concrete implementation of base observer.
 ![Observer pattern UML](https://www.codeproject.com/KB/architecture/455228/observer.jpg)
+
 <!--More-->
 
 ## Sample code
