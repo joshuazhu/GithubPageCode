@@ -5,15 +5,17 @@
 ---
 
 ## Definition
-Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+>Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
 ## Components
+
 1. __SubjectBase__: base class of all subjects.
     a. Contains a __list__ of __observers__ that are subscribed to the subject and methods.
     b. A __Notify__ method loops through the list of observers to call __their notify__ method.
 2. __ConcreteSubject__: concrete implementation of base subject.
 3. __ObserverBase__: base class of observers, contains methods which is called when a subject's state changes.
 4. __ConcreteObserver__: concrete implementation of base observer.
+
 ![Observer pattern UML](https://www.codeproject.com/KB/architecture/455228/observer.jpg)
 
 <!--More-->
@@ -105,4 +107,5 @@ namespace ObserverPattern
 
 ## Reference
 [Design Patterns 1 of 3 - Creational Design Patterns - CodeProject](https://www.codeproject.com/Articles/430590/Design-Patterns-of-Creational-Design-Patterns)
+
 [Head First Design Patterns - O'Reilly Media](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjE74WWy7rTAhVEppQKHfqGAjoQFggiMAA&url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F9780596007126.do&usg=AFQjCNF91VIwQIeGyXH4xU67GibpAiRKRA&sig2=YcwhV4RTfJRpzWn3xsIcoA)

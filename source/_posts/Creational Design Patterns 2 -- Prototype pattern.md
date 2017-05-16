@@ -5,7 +5,7 @@
 ---
 
 ## Definition
-Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype, which is __used to instantiate a class by copying, or cloning, the properties of an existing object__. 
+>Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype, which is __used to instantiate a class by copying, or cloning, the properties of an existing object__. 
 
 ## When to use it
 When objects has a lot of properties which must be filled and the quantity of time you spent on to create this object instance was enormous.

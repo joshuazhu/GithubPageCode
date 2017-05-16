@@ -5,11 +5,12 @@
 ---
 
 ## Definition
-Separate the construction of a complex object from its representation so that the same construction process can create different representations, which allows for the step-by-step creation of complex objects using the correct sequence of action.
+>Separate the construction of a complex object from its representation so that the same construction process can create different representations, which allows for the step-by-step creation of complex objects using the correct sequence of action.
 
 This pattern is used when a complex object that needs to be created is constructed by __constituent parts__ that must be __created in the same order__ or __by using a specific algorithm__.
 
 ## Components
+
 * __Builder__：Interface for creating the actual products. Each step is an abstract method.
 * __ConcreteBuilder__：Implementation for builder.
 * __Director__：represent class that controls algorithm used for creation of complex object.

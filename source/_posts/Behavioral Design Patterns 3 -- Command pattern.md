@@ -5,15 +5,17 @@
 ---
 
 ## Definition
-The command pattern is a design pattern that enables __all of the information for a request to be contained within a single object__. The command can then be invoked as required, often as part of a batch of queued commands with rollback capabilities.
+>The command pattern is a design pattern that enables __all of the information for a request to be contained within a single object__. The command can then be invoked as required, often as part of a batch of queued commands with rollback capabilities.
 
 ## When to use Command pattern
+
 1. When it is required to separate invoker and receiver.
 2. When system needs to generate, queue and execute requests in different time.
 3. When it is required to provide "undo" and "rockback" command. The common object could store the current state, which could be used to implement undo or redo command.
 4. When system need to do batch command。
 
 ## Components
+
 * Client: The class is a consumer of the classes of the Command design pattern. It creates the command objects and links them to receivers.
 * Receiver: this is the class which knows how to perform the operations associated with carrying out the request.
 * CommandBase: this is the abstract class (or interface) for all command objects. It holds information about the receiver which is responsible for executing an operation using information encapsulated within the command object.
@@ -25,9 +27,10 @@ The command pattern is a design pattern that enables __all of the information fo
 ![Command Pattern UML](http://my.csdn.net/uploads/201205/09/1336547877_9980.jpg)
 
 ## Codes
+
 ~~~cs
 /*
- * Receiver 
+ * Receiver
  */
 public class Document
 {
@@ -149,11 +152,13 @@ public class Client
 ~~~
 
 ## Advantage
+
 1. Code Decoupling: Invoker and Receiver are independent, Invoker only needs to call Command's execute function.
 2. Easy to extend：The Command subclasses are easy to extend, no need to change existing class.
 3. Composing command: easy to compose a group of commands.
 
 ## Reference
+
 [Design Patterns 3 of 3 - Behavioral Design Patterns - CodeProject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns)
 
 [Head First Design Patterns - O'Reilly Media](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjE74WWy7rTAhVEppQKHfqGAjoQFggiMAA&url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F9780596007126.do&usg=AFQjCNF91VIwQIeGyXH4xU67GibpAiRKRA&sig2=YcwhV4RTfJRpzWn3xsIcoA)

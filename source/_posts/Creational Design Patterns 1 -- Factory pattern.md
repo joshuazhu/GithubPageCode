@@ -5,7 +5,7 @@
 ---
 
 ## Definition
-Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses
+>Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses
 
 ## Advantages
 1. Good __Encapsulation__: The called only need to care about the class name, which helps to decouple interdependence.
@@ -230,10 +230,12 @@ public class FactoryBMW523 : FactoryBMW
     }
 }
 ```
+
 * Disadvantages: 
 If we change the interface provide by Abstract Factory itself, all factories need to change.
 
-## Reference.
+## Reference
+
 [Design Patterns 1 of 3 - Creational Design Patterns - CodeProject](https://www.codeproject.com/Articles/430590/Design-Patterns-of-Creational-Design-Patterns)
 
 [Factory Patterns - Abstract Factory Pattern - CodeProject](https://www.codeproject.com/Articles/1137307/Factory-Patterns-Abstract-Factory-Pattern)
